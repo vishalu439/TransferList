@@ -7,7 +7,7 @@ function App() {
   const [left, setleft] = useState([
     {id:1,item:"orange",checked:false},
     {id:2,item:"apple",checked:false},
-    {id:3,"item":"banana",checked:false}
+    {id:3,item:"banana",checked:false}
   ]);
   const [right, setright] = useState([
     {id:4,item:"mango",checked:false},
