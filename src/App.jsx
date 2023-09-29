@@ -11,7 +11,8 @@ function App() {
   ]);
   const [right, setright] = useState([
     {id:4,item:"mango",checked:false},
-    {id:5,item:"papaya",checked:false}
+    {id:5,item:"papaya",checked:false},
+    {id:5,item:"guava",checked:false}
   ]);
   const checkboxHandler=(id,value)=>{
     if(value==="left"){
